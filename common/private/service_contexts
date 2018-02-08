@@ -6,3 +6,5 @@ lineagestatusbar                          u:object_r:lineage_status_bar_service:
 lineagetelephonymanager                   u:object_r:lineage_telephony_service:s0
 lineageweather                            u:object_r:lineage_weather_service:s0
 profile                                   u:object_r:lineage_profile_service:s0
+
+pocket                                    u:object_r:pocket_service:s0
