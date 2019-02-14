@@ -18,6 +18,5 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
 else
 BOARD_SEPOLICY_DIRS += \
     device/arrow/sepolicy/qcom/dynamic \
-    device/arrow/sepolicy/qcom/common
+    device/arrow/sepolicy/qcom/vendor
 endif
-
