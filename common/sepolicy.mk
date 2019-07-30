@@ -23,4 +23,3 @@ BOARD_SEPOLICY_DIRS += \
     device/arrow/sepolicy/common/dynamic \
     device/arrow/sepolicy/common/vendor
 endif
-

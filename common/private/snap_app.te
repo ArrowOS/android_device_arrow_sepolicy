@@ -1,3 +1,5 @@
+type snap_app, domain, coredomain;
+
 app_domain(snap_app)
 net_domain(snap_app)
 
