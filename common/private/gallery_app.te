@@ -1,5 +1,3 @@
-type gallery_app, domain, coredomain;
-
 app_domain(gallery_app)
 net_domain(gallery_app)
 
@@ -21,8 +19,3 @@ allow gallery_app hidl_token_hwservice:hwservice_manager find;
 
 # Allow to read and execute camera app modules
 allow gallery_app vendor_file:file { rx_file_perms };
-
-# Read and write system app data files passed over Binder.
-# Motivating case was /data/data/com.android.settings/cache/*.jpg for
-# cropping or taking user photos.
-allow gallery_app system_app_data_file:file { read write getattr };
