@@ -5,3 +5,6 @@ type parallel_space_manager_service, system_api_service, system_server_service, 
 
 # App Lock
 type app_lock_service, system_api_service, system_server_service, service_manager_type;
+
+# DC Dimming
+type dc_dimming_service, system_api_service, system_server_service, service_manager_type;

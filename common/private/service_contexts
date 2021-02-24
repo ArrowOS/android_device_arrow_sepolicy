@@ -5,3 +5,6 @@ parallel                                  u:object_r:parallel_space_manager_serv
 
 # App Lock
 app_lock                                  u:object_r:app_lock_service:s0
+
+# DC Dimming
+dc_dim_service                            u:object_r:dc_dimming_service:s0
