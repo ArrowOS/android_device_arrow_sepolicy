@@ -4,3 +4,6 @@ type lineage_hardware_service, system_api_service, system_server_service, servic
 type lineage_performance_service, system_api_service, system_server_service, service_manager_type;
 type lineage_profile_service, system_api_service, system_server_service, service_manager_type;
 type lineage_weather_service, system_api_service, system_server_service, service_manager_type;
+
+# App Lock
+type applock_service, system_api_service, system_server_service, service_manager_type;

@@ -5,3 +5,6 @@ lineageweather                            u:object_r:lineage_weather_service:s0
 profile                                   u:object_r:lineage_profile_service:s0
 
 adbroot_service                           u:object_r:adbroot_service:s0
+
+# App Lock
+applock                                   u:object_r:applock_service:s0
