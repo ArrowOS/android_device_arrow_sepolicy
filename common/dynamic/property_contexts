@@ -2,4 +2,4 @@
 vendor.camera.aux.packageblacklist     u:object_r:exported_default_prop:s0
 
 # HAL1 prop readable to everything
-vendor.camera.hal1.packagelist         u:object_r:exported_default_prop:s0
+#vendor.camera.hal1.packagelist         u:object_r:exported_default_prop:s0
