@@ -7,4 +7,4 @@ hal_client_domain(system_server, hal_lineage_fod)
 hal_client_domain(system_server, hal_lineage_touch)
 
 # App Lock
-add_service(system_server, applock_service);
+add_service(system_server, app_lock_service);
