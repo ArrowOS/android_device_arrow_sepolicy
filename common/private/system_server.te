@@ -7,3 +7,6 @@ hal_client_domain(system_server, hal_lineage_touch)
 
 # Let system server find auxiliary camera properties
 get_prop(system_server, vendor_persist_camera_prop)
+
+# App Lock
+add_service(system_server, app_lock_service);
