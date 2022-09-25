@@ -13,3 +13,6 @@ add_service(system_server, app_lock_service);
 
 # Use HALs
 hal_client_domain(system_server, hal_lineage_powershare)
+
+# Linearmotor Vibrator
+add_service(system_server, linearmotor_vibrator_service);
