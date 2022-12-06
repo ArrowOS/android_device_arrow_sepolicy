@@ -2,4 +2,3 @@
 hal_attribute_lineage(lineage_camera_motor)
 hal_attribute_lineage(lineage_fastcharge)
 hal_attribute_lineage(lineage_touch)
-hal_attribute_lineage(lineage_powershare)
