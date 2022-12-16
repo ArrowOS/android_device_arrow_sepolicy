@@ -1,2 +1,5 @@
 # Allow NFC service to be found
 allow platform_app nfc_service:service_manager find;
+
+# Allow externalstorage access
+allow platform_app mnt_pass_through_file:dir { create_dir_perms mounton };
