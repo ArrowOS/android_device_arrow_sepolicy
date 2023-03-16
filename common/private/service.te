@@ -8,3 +8,6 @@ type app_lock_service, system_api_service, system_server_service, service_manage
 
 # DC Dimming
 type dc_dimming_service, system_api_service, system_server_service, service_manager_type;
+
+# FaceUnlock
+type faceunlock_service, system_api_service, system_server_service, service_manager_type;
